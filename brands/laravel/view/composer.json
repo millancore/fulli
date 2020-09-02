@@ -1,0 +1,11 @@
+{
+    "require": {
+        "illuminate/view": "^7.25",
+        "illuminate/config": "^7.26"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
