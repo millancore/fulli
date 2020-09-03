@@ -1,0 +1,43 @@
+<h1>Laravel View</h1>
+
+<p>Laravel has an excellent and intuitive template engine, now we will see how to use it outside the framework.</p>
+
+<h3>1. Folder estructure (this example) </h3>
+<p>we have two folders 'views' where we will put our '.blade.php' files and another folder 'compiled' where our compiled views will be.</p>
+<pre><code class="language-node">.
+├── view
+│   ├── default.blade.php
+│   └── partial.blade.php
+├── compiled
+├── bootstrap.php
+├── composer.json
+├── helpers.php
+└── index.php</code>
+</pre>
+
+<h3>2. Dependecies</h3>
+<p>we will use two components of Laravel (illuminate) since we want to pass the path of our folders from a configuration file.</p>
+<sub>composer.json</sub>
+<div class="container">
+    <pre data-src="brands/laravel/view/composer.json"></pre>
+</div>
+
+<h3>3. Bootstrap</h3>
+<p>This is our startup file, in which we will create a container and add all the dependencies that the view provider needs.</p>
+<sub>bootstrap.php</sub>
+<pre data-src="brands/laravel/view/bootstrap.php"></pre>
+
+<h3>4. Helpers</h3>
+<p>We created a helper to be able to use the view function from anywhere in our application.</p>
+<sub>helpers.php</sub>
+<pre data-src="brands/laravel/view/helpers.php"></pre>
+
+<h3>5. Render </h3>
+<p>And finally we render our views!</p>
+<sub>index.php</sub>
+<pre data-src="brands/laravel/view/index.php"></pre>
+
+
+<p>This code is also present on github  </p>
+
+

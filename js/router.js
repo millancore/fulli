@@ -40,7 +40,7 @@ class Router {
     }
 
     goToRoute(htmlName) {
-        fetch('brands/laravel/view/' + htmlName).then( res => {
+        fetch(htmlName).then( res => {
             return res.text();
         }).then(res => {
             this.rootElem.innerHTML = res;

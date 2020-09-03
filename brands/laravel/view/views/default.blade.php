@@ -9,5 +9,7 @@
 </head>
 <body>
     {{ $greetings }}
+    <hr />
+    @include('partial')
 </body>
 </html>
