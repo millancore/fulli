@@ -36,8 +36,3 @@
 <p>And finally we render our views!</p>
 <sub>index.php</sub>
 <pre data-src="brands/laravel/view/index.php"></pre>
-
-
-<p>This code is also present on github  </p>
-
-
