@@ -44,6 +44,8 @@ class Router {
             return res.text();
         }).then(res => {
             this.rootElem.innerHTML = res;
+
+            /** Load code hightlight */
             Prism.highlightAll();
         })
     }

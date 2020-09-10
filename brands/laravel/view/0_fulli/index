@@ -1,4 +1,10 @@
-<h1>Laravel View</h1>
+<div class="title">
+    <h1>Laravel View</h1> 
+    <a href="/brands/laravel/view/">
+       <img src="/img/icons/github.svg" width="32px" height="32px" alt="">
+    </a>
+</div>
+
 
 <p>Laravel has an excellent and intuitive template engine, now we will see how to use it outside the framework.</p>
 
@@ -17,22 +23,37 @@
 
 <h3>2. Dependecies</h3>
 <p>we will use two components of Laravel (illuminate) since we want to pass the path of our folders from a configuration file.</p>
-<sub>composer.json</sub>
-<div class="container">
-    <pre data-src="brands/laravel/view/composer.json"></pre>
+
+<div class="file">
+    <sub>composer.json</sub>
+    <a href="brands/laravel/view/composer.json" class="btn btn-sm" target="_blank">Raw</a>
 </div>
+<pre data-src="brands/laravel/view/composer.json"></pre>
+
 
 <h3>3. Bootstrap</h3>
 <p>This is our startup file, in which we will create a container and add all the dependencies that the view provider needs.</p>
-<sub>bootstrap.php</sub>
+
+<div class="file">
+    <sub>bootstrap.php</sub>
+    <a href="brands/laravel/view/bootstrap.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
 <pre data-src="brands/laravel/view/bootstrap.php"></pre>
 
 <h3>4. Helpers</h3>
 <p>We created a helper to be able to use the view function from anywhere in our application.</p>
-<sub>helpers.php</sub>
+
+<div class="file">
+    <sub>helpers.php</sub>
+    <a href="brands/laravel/view/helpers.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
 <pre data-src="brands/laravel/view/helpers.php"></pre>
 
 <h3>5. Render </h3>
 <p>And finally we render our views!</p>
-<sub>index.php</sub>
+
+<div class="file">
+    <sub>index.php</sub>
+    <a href="brands/laravel/view/index.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
 <pre data-src="brands/laravel/view/index.php"></pre>

@@ -19,8 +19,8 @@ $container->bind('files', function () {
 
 /**
  * Add config repository
- * if you want to pass configuration file you can use 'require: path/config.php'
- * as parameter.
+ * if you want to pass configuration file you can use
+ * 'require: path/config.php' as parameter.
  *
  * return new Repository(require 'path/config.php');
  */
