@@ -1,0 +1,58 @@
+<div class="title">
+    <h1>Laravel Container</h1> 
+    <a href="https://github.com/millancore/fulli/tree/master/brands/laravel/container/" target="_blank">
+       <img src="/img/icons/github.svg" width="32px" height="32px" alt="">
+    </a>
+</div>
+
+<p>Laravel container is the backbone of the framework, this Dependency Injection Container is one of the most useful components.</p>
+
+<h3>1. Folder estructure (this example) </h3>
+<pre><code class="language-node">.
+├── src
+│   ├── Contracts
+│   │   └── DependencyInterface.php
+│   ├── Injection
+│   │   ├── Dependency.php
+│   │   └── DummyClass.php
+│   ├── Providers
+│   │   ├── EventServiceProvider.php
+│   │   └── ServiceProvider.php
+│   └── Application.php
+├── bootstrap.php
+├── composer.json
+├── composer.lock
+├── helpers.php
+└── index.php</code>
+</pre>
+
+<h3>2. Dependecies</h3>
+<div class="file">
+    <sub>composer.json</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/container/composer.json" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/container/composer.json"></pre>
+
+<h3>3. Bootstrap</h3>
+
+<div class="file">
+    <sub>bootstrap.php</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/container/bootstrap.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/container/bootstrap.php"></pre>
+
+
+<h3>4. Application (Container)</h3>
+<div class="file">
+    <sub>composer.json</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/container/src/Application.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/container/src/Application.php"></pre>
+
+<h3>5. Use </h3>
+
+<div class="file">
+    <sub>index.php</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/container/index.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/container/index.php"></pre>

@@ -2,7 +2,8 @@
 
 (function () {
     new Router([
-        new Route('home', 'brands/laravel/view/0_fulli/index', true),
+        new Route('laravel/view', 'brands/laravel/view/0_fulli/index', true),
+        new Route('laravel/container', 'brands/laravel/container/0_fulli/index'),
         new Route('about', 'about.html')
     ]);
 }());

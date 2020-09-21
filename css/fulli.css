@@ -45,6 +45,10 @@ pre[class*="language-"] {
     border-radius: 1px;    
 }
 
+ul {
+    list-style: none;
+}
+
 
 #logo {
     padding: 20px 10px;
@@ -80,6 +84,10 @@ pre[class*="language-"] {
 
 .sidebar img {
     align-content: center;
+}
+
+.sidebar li {
+    margin-top: .8em;
 }
 
 .content {

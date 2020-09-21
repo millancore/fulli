@@ -1,0 +1,13 @@
+{
+    "require": {
+        "illuminate/container": "^7.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fulli\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}

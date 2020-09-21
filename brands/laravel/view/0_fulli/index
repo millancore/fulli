@@ -1,6 +1,6 @@
 <div class="title">
     <h1>Laravel View</h1> 
-    <a href="/brands/laravel/view/">
+    <a href="https://github.com/millancore/fulli/tree/master/brands/laravel/view/" target="_blank">
        <img src="/img/icons/github.svg" width="32px" height="32px" alt="">
     </a>
 </div>
@@ -26,7 +26,7 @@
 
 <div class="file">
     <sub>composer.json</sub>
-    <a href="brands/laravel/view/composer.json" class="btn btn-sm" target="_blank">Raw</a>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/view/composer.json" class="btn btn-sm" target="_blank">Raw</a>
 </div>
 <pre data-src="brands/laravel/view/composer.json"></pre>
 
@@ -36,7 +36,7 @@
 
 <div class="file">
     <sub>bootstrap.php</sub>
-    <a href="brands/laravel/view/bootstrap.php" class="btn btn-sm" target="_blank">Raw</a>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/view/bootstrap.php" class="btn btn-sm" target="_blank">Raw</a>
 </div>
 <pre data-src="brands/laravel/view/bootstrap.php"></pre>
 
@@ -45,7 +45,7 @@
 
 <div class="file">
     <sub>helpers.php</sub>
-    <a href="brands/laravel/view/helpers.php" class="btn btn-sm" target="_blank">Raw</a>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/view/helpers.php" class="btn btn-sm" target="_blank">Raw</a>
 </div>
 <pre data-src="brands/laravel/view/helpers.php"></pre>
 
@@ -54,6 +54,6 @@
 
 <div class="file">
     <sub>index.php</sub>
-    <a href="brands/laravel/view/index.php" class="btn btn-sm" target="_blank">Raw</a>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/view/index.php" class="btn btn-sm" target="_blank">Raw</a>
 </div>
 <pre data-src="brands/laravel/view/index.php"></pre>
