@@ -1,0 +1,58 @@
+<div class="title">
+    <h1>Laravel Validation</h1> 
+    <a href="https://github.com/millancore/fulli/tree/master/brands/laravel/validation/" target="_blank">
+       <img src="/img/icons/github.svg" width="32px" height="32px" alt="">
+    </a>
+</div>
+
+
+<p>Laravel validations are simple, it has a simple way of grouping rules, create news, here we will see how to use them wherever we want.</p>
+
+<h3>1. Folder estructure (this example) </h3>
+<p>The most important thing in this structure is the "lang" folder where we will store the validation messages according to the language, we can take the english ones directly from the laravel repository.
+  <a href="https://raw.githubusercontent.com/laravel/laravel/master/resources/lang/en/validation.php"> Validation Language Lines </a>
+</p>
+<pre><code class="language-node">.
+├── src
+|    └──Validator.php
+├── lang
+    └─ en
+       └─ validation.php
+├── bootstrap.php
+├── composer.json
+└── index.php</code>
+</pre>
+
+<h3>2. Dependecies</h3>
+
+<div class="file">
+    <sub>composer.json</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/validation/composer.json" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/validation/composer.json"></pre>
+
+
+<h3>3. Bootstrap</h3>
+<p>This is our startup file, Here we have to resolve our local language in case you want validations in different languages. </p>
+
+<div class="file">
+    <sub>bootstrap.php</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/validation/bootstrap.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/validation/bootstrap.php"></pre>
+
+
+<h3>4. Validate </h3>
+<p>And finally we can validate</p>
+
+<div class="file">
+    <sub>index.php</sub>
+    <a href="https://raw.githubusercontent.com/millancore/fulli/master/brands/laravel/validation/index.php" class="btn btn-sm" target="_blank">Raw</a>
+</div>
+<pre data-src="brands/laravel/validation/index.php"></pre>
+
+<p>You can make use of the different methods that the validator has, here are some of the most used ones.</p>
+
+<p><strong>$validator->validate();</strong> Run the validator's rules against its data.</p>
+<p><strong>$validator->fails(); </strong> Determine if the data fails the validation rules.</p>
+<p><strong>$validator->errors();</strong> List of validation errors.</p>
